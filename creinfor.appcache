@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# v1 - 2011-08-13
+# Esto es un comentario.
+images/favicon.ico
+index.html
+css/bootstrap.min.css
+css/animate.min.css
+css/font-awesome.min.css
+css/lightbox.css
+css/main.css
+css/presets/preset1.css
+css/responsive.css
+#images/*

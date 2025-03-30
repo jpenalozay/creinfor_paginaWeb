@@ -1,0 +1,6 @@
+# robots.txt to https://www.creinfor.com
+
+User-agent: *
+Disallow:
+
+Sitemap: https://www.creinfor.com/sitemap.xml
