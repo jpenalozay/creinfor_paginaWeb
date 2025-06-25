@@ -1,34 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-
-         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+   <!-- Página Principal -->
    <url>
-
       <loc>https://www.creinfor.com/</loc>
-
-      <lastmod>2019-04-04</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.8</priority>
-
-   </url>
-	
-	<url>
-
-      <loc>http://www.creinfor.com/</loc>
-
-      <lastmod>2019-04-04</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>0.8</priority>
-
+      <lastmod>2024-12-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+      <image:image>
+         <image:loc>https://www.creinfor.com/images/optimized/logo.webp</image:loc>
+         <image:title>CREINFOR - Software a Medida e IA Empresarial</image:title>
+         <image:caption>Empresa peruana especializada en desarrollo de software personalizado e inteligencia artificial</image:caption>
+      </image:image>
    </url>
 
+   <!-- Servicios Principales -->
+   <url>
+      <loc>https://www.creinfor.com/#services</loc>
+      <lastmod>2024-12-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+
+   <!-- Portfolio -->
+   <url>
+      <loc>https://www.creinfor.com/#portfolio</loc>
+      <lastmod>2024-12-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://www.creinfor.com/images/optimized/dynamic.webp</image:loc>
+         <image:title>Microsoft Dynamics ERP - CREINFOR</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.creinfor.com/images/portfolio/2.webp</image:loc>
+         <image:title>APNE Automatización - CREINFOR</image:title>
+      </image:image>
+   </url>
+
+   <!-- Nosotros -->
+   <url>
+      <loc>https://www.creinfor.com/#about-us</loc>
+      <lastmod>2024-12-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+   <!-- Blog -->
+   <url>
+      <loc>https://www.creinfor.com/#blog</loc>
+      <lastmod>2024-12-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://www.creinfor.com/images/blog/1.webp</image:loc>
+         <image:title>Machine Learning para Empresas en Perú</image:title>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.creinfor.com/images/blog/2.webp</image:loc>
+         <image:title>RPA: Automatización Inteligente para PYMES</image:title>
+      </image:image>
+   </url>
+
+   <!-- FAQ -->
+   <url>
+      <loc>https://www.creinfor.com/#faq</loc>
+      <lastmod>2024-12-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+
+   <!-- Contacto -->
+   <url>
+      <loc>https://www.creinfor.com/#contact</loc>
+      <lastmod>2024-12-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+   <!-- Portfolio Individual (cuando esté completado) -->
+   <url>
+      <loc>https://www.creinfor.com/portfolio-single.html</loc>
+      <lastmod>2024-12-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+
+   <!-- Páginas de servicios específicos para SEO (futuras) -->
+   <!-- Estas URLs se deben crear para mejorar el SEO -->
+   <!--
+   <url>
+      <loc>https://www.creinfor.com/servicios/software-a-medida-peru/</loc>
+      <lastmod>2024-12-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   
+   <url>
+      <loc>https://www.creinfor.com/servicios/inteligencia-artificial-empresas/</loc>
+      <lastmod>2024-12-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   
+   <url>
+      <loc>https://www.creinfor.com/servicios/help-desk-soporte-tecnico/</loc>
+      <lastmod>2024-12-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   -->
 
 </urlset>
