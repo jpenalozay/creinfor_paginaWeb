@@ -3,18 +3,69 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="erp, rpa, machine learning, software, desarrollo de sistemas a medida, mejoramiento de procesos empresariales, gestion empresarial, erp peru, erp web, erp en la nube, erp gestion, creinfor erp, gestion, ventas, facturacion, compras, finanzas, inventario, planilla, contabilidad, crm, clinicas, hospitales, lima, peru">
-<meta name="description" content="CREINFOR - Servicios Informáticos, Desarrollo de sistemas informáticos, mejora de procesos, RPA, IA, redes y servidores. Ofrecemos soluciones tecnológicas para empresas en Lima, Perú.">
+<meta name="keywords" content="erp, rpa, machine learning, software, desarrollo de sistemas a medida, mejoramiento de procesos empresariales, gestion empresarial, erp peru, erp web, erp en la nube, erp gestion, creinfor erp, gestion, ventas, facturacion, compras, finanzas, inventario, planilla, contabilidad, crm, clinicas, hospitales, lima, peru, inteligencia artificial, automatización, transformación digital">
+<meta name="description" content="CREINFOR - Servicios Informáticos, Desarrollo de sistemas informáticos, mejora de procesos, RPA, IA, redes y servidores. Ofrecemos soluciones tecnológicas para empresas en Lima, Perú. Especialistas en ERP, Machine Learning y Automatización.">
 <meta name="robots" content="index,follow">
 <meta name="author" content="Creinfor">
 <meta property="og:site_name" content="CREINFOR">
 <meta property="og:locale" content="es_PE">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Creinfor - Servicios Tecnológicos en Lima, Perú | ERP, RPA, Machine Learning">
+<meta property="og:description" content="Empresa líder en servicios tecnológicos. Desarrollamos sistemas ERP, automatización RPA, machine learning y soluciones digitales para empresas en Perú.">
+<meta property="og:image" content="https://www.creinfor.com/images/logo.png">
+<meta property="og:url" content="https://www.creinfor.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Creinfor - Servicios Tecnológicos en Lima, Perú">
+<meta name="twitter:description" content="Especialistas en ERP, RPA, Machine Learning y desarrollo de software a medida">
+<meta name="twitter:image" content="https://www.creinfor.com/images/logo.png">
+
+<!-- Datos Estructurados JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "CREINFOR",
+  "alternateName": "Creatividad Informática",
+  "url": "https://www.creinfor.com",
+  "logo": "https://www.creinfor.com/images/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+51-1-3137372",
+    "contactType": "customer service",
+    "areaServed": "PE",
+    "availableLanguage": "Spanish"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle Rio de la Plata 424",
+    "addressLocality": "San Isidro",
+    "addressRegion": "Lima",
+    "addressCountry": "PE"
+  },
+  "sameAs": [
+    "https://www.facebook.com/creinfor",
+    "https://www.linkedin.com/company/creinfor"
+  ],
+  "description": "Empresa peruana especializada en servicios tecnológicos, desarrollo de sistemas ERP, RPA, machine learning y automatización de procesos empresariales."
+}
+</script>
+
 <title>Creinfor - Servicios Tecnológicos en Lima, Perú | ERP, RPA, Machine Learning</title>
 <meta name="title" content="Creinfor - Servicios Tecnológicos en Lima, Perú | ERP, RPA, Machine Learning">
 <meta name="author" content="creinfor.com">
 <meta name="owner" content="creinfor.com">
-<link rel="alternate" href="http://www.crienfor.com" hreflang="es-pe">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
+<link rel="canonical" href="https://www.creinfor.com/">
+<link rel="alternate" href="https://www.creinfor.com" hreflang="es-pe">
+
+<!-- DNS Prefetch para mejorar velocidad -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+
+<!-- Preload recursos críticos -->
+<link rel="preload" href="css/main.css" as="style">
+<link rel="preload" href="js/main.js" as="script">
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/animate.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -23,6 +74,101 @@
 <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <link rel="shortcut icon" href="images/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/logo.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#667eea">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="CREINFOR">
+<meta name="msapplication-TileColor" content="#667eea">
+<meta name="msapplication-config" content="browserconfig.xml">
+
+<!-- Estilos adicionales para mejoras -->
+<style>
+  /* Mejoras de rendimiento */
+  .lazy-load {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .lazy-load.loaded {
+    opacity: 1;
+  }
+  
+  /* Video de fondo */
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Mejor diseño para touch */
+  .carousel-control-touch {
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    transition: all 0.3s ease;
+  }
+  
+  .carousel-control-touch:hover {
+    background: rgba(0,0,0,0.8);
+  }
+  
+  .carousel-control-touch.left {
+    left: 20px;
+  }
+  
+  .carousel-control-touch.right {
+    right: 20px;
+  }
+  
+  /* Indicadores mejorados */
+  .carousel-indicators-custom {
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+  
+  .carousel-indicators-custom li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.5);
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .carousel-indicators-custom li.active {
+    background: white;
+    border-color: white;
+  }
+</style>
 </head>
 <!--/head-->
 
@@ -33,36 +179,102 @@
 <!--/.preloader-->
 
 <header id="home">
-  <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+  <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000" data-pause="hover">
+    
+    <!-- Video de fondo para la primera slide -->
+    <div class="video-background">
+      <video autoplay muted loop playsinline>
+        <source src="images/videos/5200-183786525_small.mp4" type="video/mp4">
+        <!-- Fallback para navegadores que no soportan video -->
+        <img src="images/slider/1.webp" alt="Creinfor Background">
+      </video>
+    </div>
+    
+    <!-- Indicadores mejorados -->
+    <ol class="carousel-indicators carousel-indicators-custom">
+      <li data-target="#home-slider" data-slide-to="0" class="active"></li>
+      <li data-target="#home-slider" data-slide-to="1"></li>
+      <li data-target="#home-slider" data-slide-to="2"></li>
+    </ol>
+    
     <div class="carousel-inner">
-      <div class="item active" style="background-image: url(images/slider/1.webp)">
+              <div class="item active">
+          <div class="hero-container">
+            <div class="hero-content">
+              <div class="hero-text">
+                <h1 class="animated fadeInLeftBig">
+                  <span class="title-line-1">Creatividad</span>
+                  <span class="title-line-2">Informática</span>
+                </h1>
+                <div class="hero-description">
+                  <p class="hero-line-1 animated fadeInUp" data-wow-delay="0.3s">Transformamos visiones en <span class="highlight">realidad digital</span>.</p>
+                  <p class="hero-line-2 animated fadeInUp" data-wow-delay="0.6s">Servicios de <span class="highlight">Inteligencia Artificial</span></p>
+                  <p class="hero-line-3 animated fadeInUp" data-wow-delay="0.9s">y desarrollo a medida que elevan tu negocio</p>
+                  <p class="hero-line-4 animated fadeInUp" data-wow-delay="1.2s">al siguiente <span class="highlight gradient-text">nivel tecnológico</span>.</p>
+                </div>
+                <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Comenzar</a>
+              </div>
+              <div class="hero-image">
+                <div class="ai-robot-container">
+                  <img src="images/ai_robot.png" alt="Inteligencia Artificial" class="ai-robot animated fadeInRightBig">
+                  <div class="ai-effects">
+                    <div class="pulse-ring pulse-ring-1"></div>
+                    <div class="pulse-ring pulse-ring-2"></div>
+                    <div class="pulse-ring pulse-ring-3"></div>
+                    <div class="floating-particles">
+                      <span class="particle particle-1"></span>
+                      <span class="particle particle-2"></span>
+                      <span class="particle particle-3"></span>
+                      <span class="particle particle-4"></span>
+                      <span class="particle particle-5"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="item" style="background-image: url(images/background1.png)">
         <div class="caption">
-          <h1 class="animated fadeInLeftBig">Bienvenido a <span>Creinfor</span></h1>
-          <p class="animated fadeInRightBig">Servicios Tecnológicos</p>
-          <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Comienzo</a> </div>
+          <h1 class="animated fadeInLeftBig">Automatización de Procesos<span> con IA</span></h1>
+          <p class="animated fadeInRightBig">Mejore sus tiempos y obtenga mayor productividad</p>
+          <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Comenzar</a>
+        </div>
       </div>
-      <div class="item" style="background-image: url(images/slider/2.webp)">
+      <div class="item" style="background-image: url(images/Kairos-ia-kPaH--1248x698@abc.webp)">
         <div class="caption">
-          <h1 class="animated fadeInLeftBig">Automatización de Procesos<span> y Sistemas</span></h1>
-          <p class="animated fadeInRightBig">Mejore sus tiempo y obtenga mayor productividad</p>
-          <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Comienzo</a> </div>
-      </div>
-      <div class="item" style="background-image: url(images/slider/3.webp)">
-        <div class="caption">
-          <h1 class="animated fadeInLeftBig">Soporte<span> Redes y Servidores</span></h1>
-          <p class="animated fadeInRightBig">ventaja competitiva</p>
-          <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Comienzo</a> </div>
+          <h1 class="animated fadeInLeftBig">Tecnología<span> del Futuro</span></h1>
+          <p class="animated fadeInRightBig">Soluciones innovadoras para empresas</p>
+          <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Comenzar</a>
+        </div>
       </div>
     </div>
-    <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a> <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a> </div>
+    
+    <!-- Controles mejorados para touch -->
+    <a class="carousel-control-touch left" href="#home-slider" data-slide="prev" role="button" aria-label="Anterior">
+      <i class="fa fa-angle-left"></i>
+    </a>
+    <a class="carousel-control-touch right" href="#home-slider" data-slide="next" role="button" aria-label="Siguiente">
+      <i class="fa fa-angle-right"></i>
+    </a>
+    
+    <a id="tohash" href="#services" aria-label="Ir a servicios"><i class="fa fa-angle-down"></i></a>
+  </div>
   <!--/#home-slider-->
+  
   <div class="main-nav">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle navigation"> 
+          <span class="sr-only">Toggle navigation</span> 
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span> 
+        </button>
         <a class="navbar-brand" href="index.html">
-        <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
-        </a> </div>
+          <h1><img class="img-responsive" src="images/logo.png" alt="Creinfor Logo" width="150" height="50"></h1>
+        </a> 
+      </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="scroll active"><a href="#home">Inicio</a></li>
@@ -70,7 +282,7 @@
           <li class="scroll"><a href="#about-us">Nosotros</a></li>
           <li class="scroll"><a href="#portfolio">Portfolio</a></li>
           <li class="scroll"><a href="#blog">Blog</a></li>
-          <li class="scroll"><a href="#contact">Contactenos</a></li>
+          <li class="scroll"><a href="#contact">Contáctenos</a></li>
         </ul>
       </div>
     </div>
@@ -83,32 +295,173 @@
     <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
       <div class="row">
         <div class="text-center col-sm-8 col-sm-offset-2">
-          <h2>Servicios</h2>
-          <p>Basados en normas y buenas prácticas de la industria que son provistos con rigurosos controles de calidad los cuales son auditados regularmente de acuerdo a un plan para asegurarnos de entregarle el máximo valor de acuerdo al contrato. Nuestra gestión de servicios está basada en la Biblioteca de Infraestructura de Tecnologías de la Información ITIL.</p>
+          <h2>Nuestros Servicios</h2>
+          <p>Soluciones tecnológicas integrales que transforman y potencian su negocio con las últimas innovaciones en el mercado digital. Calidad garantizada con metodologías ITIL y soporte 24/7.</p>
         </div>
       </div>
     </div>
-    <div class="text-center our-services">
+    
+    <div class="services-grid">
       <div class="row">
-        <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <div class="service-icon"> <i class="fa fa-gift"></i> </div>
-          <div class="service-info">
-            <h3>Fábrica de Software y Sistemas</h3>
-            <p>Profesionales certificados para el desarrollo a medida de sus sistemas informáticos estratégicos. Productos de Software.</p>
+        <!-- Servicio 1 - Sistemas a Medida -->
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="images/blog/2.webp" alt="Sistemas a Medida" class="img-responsive">
+              <div class="service-overlay">
+                <div class="service-icon">
+                  <i class="fa fa-cogs"></i>
+                </div>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>Sistemas a Medida</h3>
+              <p>Desarrollo de sistemas empresariales robustos y escalables. Planificación de recursos empresariales (ERP) personalizados para optimizar todos sus procesos.</p>
+              <ul class="service-features">
+                <li><i class="fa fa-check"></i> Análisis y diseño personalizado</li>
+                <li><i class="fa fa-check"></i> Integración total de procesos</li>
+                <li><i class="fa fa-check"></i> Soporte técnico 24/7</li>
+                <li><i class="fa fa-check"></i> Capacitación incluida</li>
+              </ul>
+              <div class="service-action">
+                <a href="#contact" class="btn btn-primary">Consultar</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-          <div class="service-icon"> <i class="fa fa-cloud"></i> </div>
-          <div class="service-info">
-            <h3>Redes y Servidores</h3>
-            <p>Staff de expertos certificados en redes y servidores. Implementación de DataCenter's y cableado. Camaras de seguridad</p>
+
+        <!-- Servicio 2 - Machine Learning -->
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="images/blog/3.webp" alt="Machine Learning" class="img-responsive">
+              <div class="service-overlay">
+                <div class="service-icon">
+                  <i class="fa fa-brain"></i>
+                </div>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>IA y Machine Learning</h3>
+              <p>Implementación de inteligencia artificial y aprendizaje automático para predicciones precisas y toma de decisiones inteligentes basadas en datos.</p>
+              <ul class="service-features">
+                <li><i class="fa fa-check"></i> Algoritmos de predicción</li>
+                <li><i class="fa fa-check"></i> Análisis de patrones</li>
+                <li><i class="fa fa-check"></i> Automatización inteligente</li>
+                <li><i class="fa fa-check"></i> Modelos personalizados</li>
+              </ul>
+              <div class="service-action">
+                <a href="#contact" class="btn btn-primary">Consultar</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-          <div class="service-icon"> <i class="fa fa-umbrella"></i> </div>
-          <div class="service-info">
-            <h3>Tercerización Tecnológica. Help Desk</h3>
-            <p>Crecimiento inmediato, concentrandoce en el core de su negocio y no en la parte operativa que no le generan valor.</p>
+
+        <!-- Servicio 3 - RPA -->
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="images/rpa.jpeg" alt="RPA Automatización" class="img-responsive">
+              <div class="service-overlay">
+                <div class="service-icon">
+                  <i class="fa fa-robot"></i>
+                </div>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>RPA - Automatización</h3>
+              <p>Robotic Process Automation para automatizar tareas repetitivas, reducir errores humanos y aumentar la eficiencia operacional de su empresa.</p>
+              <ul class="service-features">
+                <li><i class="fa fa-check"></i> Automatización de procesos</li>
+                <li><i class="fa fa-check"></i> Reducción de costos</li>
+                <li><i class="fa fa-check"></i> Mayor precisión</li>
+                <li><i class="fa fa-check"></i> ROI garantizado</li>
+              </ul>
+              <div class="service-action">
+                <a href="#contact" class="btn btn-primary">Consultar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Servicio 4 - Redes y Servidores -->
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="images/redes_servidores.webp" alt="Redes y Servidores" class="img-responsive">
+              <div class="service-overlay">
+                <div class="service-icon">
+                  <i class="fa fa-server"></i>
+                </div>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>Redes y Servidores</h3>
+              <p>Infraestructura tecnológica robusta, servidores empresariales, redes seguras y data centers para garantizar la continuidad de su operación.</p>
+              <ul class="service-features">
+                <li><i class="fa fa-check"></i> Diseño de infraestructura</li>
+                <li><i class="fa fa-check"></i> Seguridad avanzada</li>
+                <li><i class="fa fa-check"></i> Monitoreo 24/7</li>
+                <li><i class="fa fa-check"></i> Backup automático</li>
+              </ul>
+              <div class="service-action">
+                <a href="#contact" class="btn btn-primary">Consultar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Servicio 5 - Soporte Técnico -->
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="images/helpdesk.webp" alt="Soporte Técnico ITIL" class="img-responsive">
+              <div class="service-overlay">
+                <div class="service-icon">
+                  <i class="fa fa-life-ring"></i>
+                </div>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>Help Desk</h3>
+              <p>Servicios de soporte técnico especializado 24/7/365 con metodología ITIL v4. Mesa de ayuda multinivel, gestión de incidentes y resolución proactiva de problemas.</p>
+              <ul class="service-features">
+                <li><i class="fa fa-check"></i> Soporte 24/7, 365 días</li>
+                <li><i class="fa fa-check"></i> Metodología ITIL v4</li>
+                <li><i class="fa fa-check"></i> SLA garantizado 99.9%</li>
+                <li><i class="fa fa-check"></i> Mesa de ayuda multinivel</li>
+              </ul>
+              <div class="service-action">
+                <a href="#contact" class="btn btn-primary">Consultar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Servicio 6 - Consultoría IT -->
+        <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="images/consultoria_it.webp" alt="Consultoría IT" class="img-responsive">
+              <div class="service-overlay">
+                <div class="service-icon">
+                  <i class="fa fa-lightbulb-o"></i>
+                </div>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3>Consultoría Tecnológica</h3>
+              <p>Asesoramiento estratégico en transformación digital, auditorías tecnológicas y planes de mejora para maximizar el retorno de inversión.</p>
+              <ul class="service-features">
+                <li><i class="fa fa-check"></i> Auditoría tecnológica</li>
+                <li><i class="fa fa-check"></i> Plan estratégico IT</li>
+                <li><i class="fa fa-check"></i> Optimización de procesos</li>
+                <li><i class="fa fa-check"></i> Gestión del cambio</li>
+              </ul>
+              <div class="service-action">
+                <a href="#contact" class="btn btn-primary">Consultar</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -116,40 +469,203 @@
   </div>
 </section>
 <!--/#services-->
-<section id="about-us" class="parallax">
+<section id="about-us" class="about-section-dark">
+  <!-- Fondo animado con partículas -->
+  <div class="about-particles">
+    <div class="particle-grid">
+      <div class="particle-dot"></div>
+      <div class="particle-dot"></div>
+      <div class="particle-dot"></div>
+      <div class="particle-dot"></div>
+      <div class="particle-dot"></div>
+      <div class="particle-dot"></div>
+    </div>
+  </div>
+  
+  <!-- Elementos flotantes de tecnología -->
+  <div class="floating-tech-elements">
+    <div class="tech-icon tech-icon-1"><i class="fa fa-code"></i></div>
+    <div class="tech-icon tech-icon-2"><i class="fa fa-robot"></i></div>
+    <div class="tech-icon tech-icon-3"><i class="fa fa-brain"></i></div>
+    <div class="tech-icon tech-icon-4"><i class="fa fa-server"></i></div>
+    <div class="tech-icon tech-icon-5"><i class="fa fa-shield"></i></div>
+  </div>
+
   <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <h2>Nosotros</h2>
-          <p>Empresa Peruna, la cual brinda servicios y productos en el ámbito de tecnologías de información para el desarrollo de su organización. Nuestro reto es la innovación y la satisfacción de nuestros clientes para el mayor beneficio de su empresa. Comparta con nosotros la experiencia de vivir la tecnología como parte de su éxito. Aplicamos últimas metodologías y trabajamos con marcas reconocidas, asegurando la calidad de nuestros servicios y productos para que logre sus metas y así alcance su visión como organización.</p>
+    <div class="about-content-wrapper">
+      <!-- Encabezado con efectos modernos -->
+      <div class="about-header text-center wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="200ms">
+        <div class="section-title-modern">
+          <span class="title-accent">Nosotros</span>
+          <h2 class="main-title">Transformamos Ideas en<br><span class="gradient-text">Realidad Digital</span></h2>
+          <div class="title-underline"></div>
         </div>
       </div>
-      <div class="col-sm-6">
-        <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <p class="lead">Sistemas a Medida</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="95">90%</div>
+
+      <div class="row">
+        <!-- Columna izquierda - Información principal -->
+        <div class="col-lg-6 col-md-6">
+          <div class="about-main-content wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="about-glass-card">
+              <div class="company-intro">
+                <div class="company-logo-section">
+                  <div class="logo-highlight">
+                    <span class="company-name">CREINFOR</span>
+                    <span class="company-tagline">Innovation & Technology</span>
+                  </div>
+                </div>
+                
+                <p class="intro-text">
+                  <strong>CREINFOR</strong> es una empresa peruana especializada en brindar servicios y productos de tecnologías de información estratégicos para el crecimiento integral de su organización. Nuestro compromiso fundamental es impulsar la innovación tecnológica y garantizar la máxima satisfacción de nuestros clientes, generando valor tangible para el éxito sostenible de su empresa.
+                </p>
+                
+                <p class="mission-text">
+                  Le invitamos a <em class="highlight-phrase">vivir la tecnología como catalizador de su éxito empresarial</em>. Implementamos las metodologías más avanzadas del mercado y mantenemos alianzas estratégicas con las marcas más reconocidas de la industria, asegurando estándares de excelencia en cada solución que desarrollamos para que su organización logre sus objetivos estratégicos y materialice su visión de futuro.
+                </p>
+              </div>
+
+              <!-- Estadísticas interactivas -->
+              <div class="company-stats">
+                <div class="stat-item" data-counter="15">
+                  <div class="stat-icon"><i class="fa fa-calendar"></i></div>
+                  <div class="stat-content">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Años de Experiencia</span>
+                  </div>
+                </div>
+                                 <div class="stat-item" data-counter="50">
+                   <div class="stat-icon"><i class="fa fa-users"></i></div>
+                   <div class="stat-content">
+                     <span class="stat-number">50+</span>
+                     <span class="stat-label">Clientes Satisfechos</span>
+                   </div>
+                 </div>
+                 <div class="stat-item" data-counter="80">
+                   <div class="stat-icon"><i class="fa fa-trophy"></i></div>
+                   <div class="stat-content">
+                     <span class="stat-number">80+</span>
+                     <span class="stat-label">Proyectos Exitosos</span>
+                   </div>
+                 </div>
+              </div>
             </div>
           </div>
-          <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <p class="lead">Redes y Servidores.</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="75">77%</div>
+        </div>
+
+        <!-- Columna derecha - Skills y certificaciones -->
+        <div class="col-lg-6 col-md-6">
+          <div class="about-skills-section wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <!-- Expertise técnica con design moderno -->
+            <div class="expertise-container">
+              <h3 class="skills-title">Nuestra Expertise</h3>
+              
+              <div class="skill-item-modern">
+                <div class="skill-header">
+                  <span class="skill-name">Sistemas a Medida</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-skill="95">
+                    <div class="skill-progress"></div>
+                    <div class="skill-glow"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item-modern">
+                <div class="skill-header">
+                  <span class="skill-name">Inteligencia Artificial</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-skill="88">
+                    <div class="skill-progress"></div>
+                    <div class="skill-glow"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item-modern">
+                <div class="skill-header">
+                  <span class="skill-name">Automatización RPA</span>
+                  <span class="skill-percentage">92%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-skill="92">
+                    <div class="skill-progress"></div>
+                    <div class="skill-glow"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item-modern">
+                <div class="skill-header">
+                  <span class="skill-name">Infraestructura IT</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-skill="90">
+                    <div class="skill-progress"></div>
+                    <div class="skill-glow"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-item-modern">
+                <div class="skill-header">
+                  <span class="skill-name">Soporte Técnico ITIL</span>
+                  <span class="skill-percentage">96%</span>
+                </div>
+                <div class="skill-bar-container">
+                  <div class="skill-bar" data-skill="96">
+                    <div class="skill-progress"></div>
+                    <div class="skill-glow"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Certificaciones y metodologías -->
+            <div class="certifications-grid">
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <h4>ITIL v4</h4>
+                <p>Gestión de Servicios</p>
+              </div>
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa fa-cogs"></i></div>
+                <h4>SCRUM</h4>
+                <p>Metodología Ágil</p>
+              </div>
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa fa-shield-alt"></i></div>
+                <h4>ISO 27001</h4>
+                <p>Seguridad Informática</p>
+              </div>
+                             <div class="cert-card">
+                 <div class="cert-icon"><i class="fa fa-database"></i></div>
+                 <h4>Oracle</h4>
+                 <p>Partner Certificado</p>
+               </div>
             </div>
           </div>
-          <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <p class="lead">ERP</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="60">50%</div>
-            </div>
-          </div>
-          <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <p class="lead">Help Desk</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="85">40%</div>
-            </div>
+        </div>
+      </div>
+
+      <!-- Call to Action modernizado -->
+      <div class="about-cta-section text-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
+        <div class="cta-content">
+          <h3>¿Listo para Transformar su Empresa?</h3>
+          <p>Descubra cómo podemos impulsar su crecimiento con tecnología de vanguardia</p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn btn-primary-modern">
+              <span>Consulta Gratuita</span>
+              <i class="fa fa-arrow-right"></i>
+            </a>
+            <a href="#portfolio" class="btn btn-outline-modern">
+              <span>Ver Casos de Éxito</span>
+              <i class="fa fa-eye"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -162,141 +678,180 @@
   <div class="container">
     <div class="row">
       <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <h2>Portafolio de Productos</h2>
-        <p>Las implementaciones de nuestros productos vienen con garantía de 2 año y el seguimiento hasta que el índice de recuperación de la inversión (ROI) sea alcanzado.</p>
+        <h2>Portfolio de Soluciones</h2>
+        <p>¿Necesita transformar digitalmente su empresa? Conozca nuestras soluciones exitosas que han revolucionado negocios como el suyo. Cada proyecto incluye garantía extendida y seguimiento del ROI.</p>
       </div>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <div class="folio-image"> <img class="img-responsive" src="images/portfolio/1.webp" alt="Portafolio"> </div>
-          <div class="overlay">
-            <div class="overlay-content">
-              <div class="overlay-text">
-                <div class="folio-info">
-                  <h3>Microsoft Dynamic AG</h3>
-                  <p>ERP para Medianas y Grandes Empresas</p>
+  
+  <div class="portfolio-section">
+    <div class="container-fluid">
+      <div class="portfolio-filter-tabs text-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+        <ul class="portfolio-filter">
+          <li><a href="#" data-filter="*" class="active">¿Qué tipo de solución necesita?</a></li>
+          <li><a href="#" data-filter=".erp">ERP Empresarial</a></li>
+          <li><a href="#" data-filter=".healthcare">Sector Salud</a></li>
+          <li><a href="#" data-filter=".education">Educación</a></li>
+          <li><a href="#" data-filter=".automation">Automatización</a></li>
+        </ul>
+      </div>
+      
+      <div class="portfolio-grid">
+        <div class="row">
+          <!-- Portfolio Item 1 - ERP -->
+          <div class="col-lg-6 col-md-6 portfolio-item erp wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img class="img-responsive" src="images/dynamic.png" alt="Microsoft Dynamics">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-content">
+                    <h3>Microsoft Dynamics ERP</h3>
+                    <p class="portfolio-question">¿Su empresa maneja múltiples procesos desconectados?</p>
+                    <p class="portfolio-answer">Integre todas sus operaciones empresariales en una sola plataforma robusta.</p>
+                    <div class="portfolio-features">
+                      <span class="feature-tag">✓ Gestión Financiera</span>
+                      <span class="feature-tag">✓ Control de Inventarios</span>
+                      <span class="feature-tag">✓ CRM Integrado</span>
+                      <span class="feature-tag">✓ Reportes en Tiempo Real</span>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="#contact" class="btn btn-outline">Solicitar Demo</a>
+                      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal1">Ver Detalles</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="folio-overview"> <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> </div>
+              </div>
+              <div class="portfolio-info">
+                <h4>Microsoft Dynamics ERP</h4>
+                <p>Solución empresarial para medianas y grandes empresas</p>
+                <div class="portfolio-stats">
+                  <span class="stat"><i class="fa fa-users"></i> 500+ usuarios</span>
+                  <span class="stat"><i class="fa fa-clock-o"></i> 6 meses implementación</span>
+                  <span class="stat"><i class="fa fa-trophy"></i> ROI 300%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 2 - APNE -->
+          <div class="col-lg-6 col-md-6 portfolio-item automation wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img class="img-responsive" src="images/portfolio/2.webp" alt="APNE Automatización">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-content">
+                    <h3>APNE - Automatización</h3>
+                    <p class="portfolio-question">¿Busca automatizar procesos y reducir costos operativos?</p>
+                    <p class="portfolio-answer">APNE optimiza automáticamente sus procesos empresariales críticos.</p>
+                    <div class="portfolio-features">
+                      <span class="feature-tag">✓ Automatización RPA</span>
+                      <span class="feature-tag">✓ Flujos de Trabajo</span>
+                      <span class="feature-tag">✓ Integración APIs</span>
+                      <span class="feature-tag">✓ Análisis Predictivo</span>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="#contact" class="btn btn-outline">Consultar Ahora</a>
+                      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal2">Ver Caso de Éxito</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <h4>APNE</h4>
+                <p>Automatización de Procesos para PYMES</p>
+                <div class="portfolio-stats">
+                  <span class="stat"><i class="fa fa-rocket"></i> 70% más rápido</span>
+                  <span class="stat"><i class="fa fa-money"></i> 40% ahorro costos</span>
+                  <span class="stat"><i class="fa fa-check-circle"></i> 99.9% precisión</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 3 - SOGHO -->
+          <div class="col-lg-6 col-md-6 portfolio-item healthcare wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img class="img-responsive" src="images/portfolio/3.webp" alt="SOGHO Sistema Hospitalario">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-content">
+                    <h3>SOGHO - Sistema Hospitalario</h3>
+                    <p class="portfolio-question">¿Su clínica u hospital necesita digitalizar la gestión médica?</p>
+                    <p class="portfolio-answer">SOGHO centraliza historias clínicas, facturación y gestión hospitalaria.</p>
+                    <div class="portfolio-features">
+                      <span class="feature-tag">✓ Historia Clínica Digital</span>
+                      <span class="feature-tag">✓ Gestión de Citas</span>
+                      <span class="feature-tag">✓ Facturación Médica</span>
+                      <span class="feature-tag">✓ Inventario Farmacia</span>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="#contact" class="btn btn-outline">Solicitar Información</a>
+                      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal3">Ver Demo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <h4>SOGHO</h4>
+                <p>Sistema Integral para Hospitales y Clínicas</p>
+                <div class="portfolio-stats">
+                  <span class="stat"><i class="fa fa-heartbeat"></i> 1000+ pacientes/día</span>
+                  <span class="stat"><i class="fa fa-shield"></i> Datos seguros</span>
+                  <span class="stat"><i class="fa fa-mobile"></i> App móvil</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 4 - GESCO -->
+          <div class="col-lg-6 col-md-6 portfolio-item education wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img class="img-responsive" src="images/gescon.jpg" alt="GESCO Sistema Educativo">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-content">
+                    <h3>GESUDA - Gestión Educativa</h3>
+                    <p class="portfolio-question">¿Su institución educativa requiere modernizar su gestión académica?</p>
+                    <p class="portfolio-answer">GESUDA digitaliza completamente la gestión de centros educativos.</p>
+                    <div class="portfolio-features">
+                      <span class="feature-tag">✓ Gestión Académica</span>
+                      <span class="feature-tag">✓ Control de Notas</span>
+                      <span class="feature-tag">✓ Portal Padres</span>
+                      <span class="feature-tag">✓ Administración</span>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="#contact" class="btn btn-outline">Agendar Cita</a>
+                      <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal4">Ver Funcionalidades</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <h4>GESUDA</h4>
+                <p>Plataforma Integral para Centros Educativos</p>
+                <div class="portfolio-stats">
+                  <span class="stat"><i class="fa fa-graduation-cap"></i> 5000+ estudiantes</span>
+                  <span class="stat"><i class="fa fa-users"></i> Portal familias</span>
+                  <span class="stat"><i class="fa fa-chart-line"></i> Reportes avanzados</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-          <div class="folio-image"> <img class="img-responsive" src="images/portfolio/2.webp" alt="Creinfor"> </div>
-          <div class="overlay">
-            <div class="overlay-content">
-              <div class="overlay-text">
-                <div class="folio-info">
-                  <h3>APNE</h3>
-                  <p>Automatización de Procesos de Negocios Empresariales ideal para pequeñas y medianas Empresas</p>
-                </div>
-                <div class="folio-overview"> <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-          <div class="folio-image"> <img class="img-responsive" src="images/portfolio/3.webp" alt="Creinfor"> </div>
-          <div class="overlay">
-            <div class="overlay-content">
-              <div class="overlay-text">
-                <div class="folio-info">
-                  <h3>SOGHO</h3>
-                  <p>Sistema de Gestión para Hospitales, Clínicas y Farmacias</p>
-                </div>
-                <div class="folio-overview"> <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="folio-image"> <img class="img-responsive" src="images/portfolio/4.webp" alt="Creinfor"> </div>
-          <div class="overlay">
-            <div class="overlay-content">
-              <div class="overlay-text">
-                <div class="folio-info">
-                  <h3>GESCO</h3>
-                  <p>Sistema de Gestión para centros educativos.</p>
-                </div>
-                <div class="folio-overview"> <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span> <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span> </div>
-              </div>
-            </div>
-          </div>
+      
+      <!-- Call to Action -->
+      <div class="portfolio-cta text-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">
+        <div class="container">
+          <h3>¿No encuentra la solución exacta que necesita?</h3>
+          <p>Desarrollamos sistemas personalizados que se adaptan perfectamente a sus requerimientos específicos</p>
+          <a href="#contact" class="btn btn-lg btn-primary">Desarrollar Solución Personalizada</a>
         </div>
       </div>
     </div>
   </div>
-  <div id="portfolio-single-wrap">
-    <div id="portfolio-single"> </div>
-  </div>
-  <!-- /#portfolio-single-wrap --> 
 </section>
 <!--/#portfolio-->
-
-<section id="features" class="parallax">
-  <div class="container">
-    <div class="row count">
-      <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms"> <i class="fa fa-user"></i>
-        <h3 class="timer">24</h3>
-        <p>Garantia de Productos en meses</p>
-      </div>
-      <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms"> <i class="fa fa-desktop"></i>
-        <h3 class="timer">36</h3>
-        <p>Pronostico de alcance de ROI en meses</p>
-      </div>
-      <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms"> <i class="fa fa-trophy"></i>
-        <h3 class="timer">8</h3>
-        <p>Certificaciones Internacionales</p>
-      </div>
-      <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms"> <i class="fa fa-comment-o"></i>
-        <h3>24/7</h3>
-        <p>Soporte</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!--/#features-->
-
-<section id="twitter" class="parallax">
-  <div> <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-          <div class="twitter-icon text-center"> <i class="">
-            <center>
-              <img class="img-responsive" src="images/logo.png" alt="Creinfor">
-            </center>
-            </i>
-            <h4>Nuestros Pilares</h4>
-          </div>
-          <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p>Confianza</p>
-              </div>
-              <div class="item">
-                <p>Calidad</p>
-              </div>
-              <div class="item">
-                <p>Innovación</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--/#twitter-->
 
 <section id="blog">
   <div class="container">
@@ -424,32 +979,152 @@
 </section>
 <!--/#contact-->
 <footer id="footer">
-  <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-    <div class="container text-center">
-      <div class="footer-logo"> <a href="index.html"><img class="img-responsive" src="images/logo.png" alt="Creinfor"></a> </div>
-      <div class="social-icons">
-        <ul>
-          <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
-          <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-          <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
-        </ul>
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <!-- Información de la Empresa -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <img src="images/logo.png" alt="CREINFOR" class="img-responsive">
+            </div>
+            <h4>CREINFOR</h4>
+            <p class="footer-description">
+              Empresa peruana líder en servicios tecnológicos desde 2010. Transformamos negocios a través de soluciones innovadoras en ERP, RPA, Machine Learning y desarrollo de software a medida.
+            </p>
+            <div class="company-certifications">
+              
+              <ul class="cert-list">
+                <li><i class="fa fa-certificate"></i> Oracle Partner</li>
+                <li><i class="fa fa-certificate"></i> ITIL Foundation</li>
+                <li><i class="fa fa-certificate"></i> ISO 27001</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contacto y Ubicación -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="footer-section">
+            <h4>Información de Contacto</h4>
+            <div class="contact-info-footer">
+              <div class="contact-item">
+                <i class="fa fa-map-marker"></i>
+                <div class="contact-details">
+                  <h5>Oficina Principal</h5>
+                  <p>Calle Rio de la Plata 424<br>San Isidro, Lima - Perú<br>Código Postal: 15036</p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <i class="fa fa-phone"></i>
+                <div class="contact-details">
+                  <h5>Teléfonos</h5>
+                  <p>Central: <a href="tel:+5113137372">(01) 313-7372</a><br>
+                     Móvil/WhatsApp: <a href="https://wa.me/51944638117" target="_blank" rel="noopener">+51 944 638 117</a></p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <i class="fa fa-envelope"></i>
+                <div class="contact-details">
+                  <h5>Correos Electrónicos</h5>
+                  <p>Información: <a href="mailto:info@creinfor.com">info@creinfor.com</a><br>
+                     Ventas: <a href="mailto:ventas@creinfor.com">ventas@creinfor.com</a><br>
+                     Soporte: <a href="mailto:soporte@creinfor.com">soporte@creinfor.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Servicios y Horarios -->
+        <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+          <div class="footer-section">
+            <h4>Servicios Principales</h4>
+            <ul class="services-list">
+              <li><a href="#services"><i class="fa fa-cogs"></i> Sistemas ERP Empresariales</a></li>
+              <li><a href="#services"><i class="fa fa-robot"></i> Automatización RPA</a></li>
+              <li><a href="#services"><i class="fa fa-brain"></i> Machine Learning e IA</a></li>
+              <li><a href="#services"><i class="fa fa-server"></i> Redes y Servidores</a></li>
+              <li><a href="#services"><i class="fa fa-code"></i> Desarrollo Web</a></li>
+              <li><a href="#services"><i class="fa fa-lightbulb-o"></i> Consultoría IT</a></li>
+            </ul>
+            
+            <div class="business-hours">
+              <h5>Horarios de Atención</h5>
+              <ul class="hours-list">                
+                <li><span>Soporte 24/7</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="footer-bottom">
+
+  <!-- Redes Sociales -->
+  <div class="footer-social">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          <p>&copy; 2023 Creinfor</p>
-        </div>
-        <div class="col-sm-6">
-          <p class="pull-right">Powered by <a href="http://www.creinfor.com/">Creinfor</a></p>
+        <div class="col-sm-12 text-center">
+          <h4>Síguenos en Redes Sociales</h4>
+          <div class="social-icons">
+            <a href="mailto:info@creinfor.com" class="social-link email" title="Enviar Email">
+              <i class="fa fa-envelope"></i>
+              <span>Email</span>
+            </a>
+                         <a href="https://www.linkedin.com/company/creinfor" target="_blank" rel="noopener" class="social-link linkedin" title="LinkedIn">
+              <i class="fa fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+                         <a href="https://www.facebook.com/creinfor" target="_blank" rel="noopener" class="social-link facebook" title="Facebook">
+              <i class="fa fa-facebook"></i>
+              <span>Facebook</span>
+            </a>
+                         <a href="https://wa.me/51944638117" target="_blank" rel="noopener" class="social-link whatsapp" title="WhatsApp">
+              <i class="fa fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+                         <a href="https://twitter.com/creinfor" target="_blank" rel="noopener" class="social-link twitter" title="Twitter">
+              <i class="fa fa-twitter"></i>
+              <span>Twitter</span>
+            </a>
+                         <a href="https://www.youtube.com/c/creinfor" target="_blank" rel="noopener" class="social-link youtube" title="YouTube">
+              <i class="fa fa-youtube"></i>
+              <span>YouTube</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <p>&copy; 2024 CREINFOR - Creatividad Informática. Todos los derechos reservados.</p>
+          <p class="legal-links">
+            <a href="#" data-toggle="modal" data-target="#privacyModal">Política de Privacidad</a> | 
+            <a href="#" data-toggle="modal" data-target="#termsModal">Términos de Servicio</a> | 
+            <a href="#" data-toggle="modal" data-target="#cookiesModal">Política de Cookies</a>
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 text-right">
+          <p class="company-details">RUC: 20537104172</p>
+          <p>Hecho con <i class="fa fa-heart text-danger"></i> en Lima, Perú</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top">
+    <a href="#home" class="scroll-top" aria-label="Volver arriba">
+      <i class="fa fa-chevron-up"></i>
+    </a>
   </div>
 </footer>
 
@@ -460,7 +1135,7 @@
 <script src="js/jquery.inview.min.js"></script> 
 <script src="js/wow.min.js"></script> 
 <script src="js/mousescroll.js"></script> 
-<script src="js/smoothscroll.js"></script> 
+<!-- <script src="js/smoothscroll.js"></script> DESHABILITADO - Conflicto con navegación --> 
 <script src="js/jquery.countTo.js"></script> 
 <script src="js/lightbox.min.js"></script> 
 <script src="js/main.js"></script> 
@@ -474,6 +1149,63 @@
   gtag('js', new Date());
 
   gtag('config', 'G-FQCYF3CRLJ');
+</script>
+
+<!-- Script de navegación de emergencia -->
+<script>
+// Navegación de respaldo si falla el sistema principal
+$(document).ready(function() {
+  // Verificar que jQuery esté cargado
+  if (typeof jQuery === 'undefined') {
+    console.error('jQuery no está cargado');
+    return;
+  }
+  
+  // Verificar navegación después de 1 segundo
+  setTimeout(function() {
+    console.log('Verificando navegación...');
+    
+    // Test de navegación
+    $('.navbar-nav a[href^="#"]').each(function() {
+      var href = $(this).attr('href');
+      if (href && $(href).length === 0) {
+        console.warn('Sección no encontrada:', href);
+      }
+    });
+    
+    // Navegación de emergencia si no funciona
+    if (!window.navigationWorking) {
+      // Navegación de emergencia para menú
+      $('.navbar-nav a[href^="#"], .btn-start, #tohash').off('click').on('click', function(e) {
+        e.preventDefault();
+        var target = $($(this).attr('href'));
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top - 70
+          }, 800);
+          
+          // Cerrar menú móvil
+          $('.navbar-collapse').collapse('hide');
+        }
+      });
+      
+      // Navegación de emergencia para carrusel
+      $('.carousel-control-touch').off('click').on('click', function(e) {
+        e.preventDefault();
+        var action = $(this).attr('data-slide');
+        var target = $(this).attr('href');
+        
+        if (action === 'prev') {
+          $(target).carousel('prev');
+        } else if (action === 'next') {
+          $(target).carousel('next');
+        }
+      });
+      
+      console.log('Navegación de emergencia MÓVIL activada');
+    }
+  }, 1000);
+});
 </script>
 </body>
 </html>
